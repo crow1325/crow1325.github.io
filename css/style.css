@@ -1,0 +1,103 @@
+/*Scott Crow Resume Styles
+This page and it's code is intended to be an expierimental
+educational project, therefore some of the coding
+styles and practices used may not be consistant or considered
+"best practice."
+(For example, performing the essensially the same task in
+seperate parts of the code in differnet ways.)
+
+Color Palette
+#b71919 Red
+#c68c7e Salmon
+#2c3242 Navy
+#666664 Grey
+#7d94b3 Blue
+#d5d5d4 White/blue
+
+
+/*Global styles
+**************************/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+  font-family: 'Kite One', sans-serif;
+  background-color: #;
+  margin: 0;
+}
+h1, h2{
+  font-family: 'Architects Daughter', cursive;
+}
+h1{
+  font-size: 4.2em;
+  font-weight: 400;
+  font-style: italic;
+}
+h2{
+  font-size: 40px;
+  font-weight: 200;
+  font-style: oblique;
+  margin-top: 0;
+}
+a{
+  color: #b71919;
+}
+a:hover{
+  text-decoration: none;
+  color: #c68c7e;
+}
+.content-wrap{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px;
+  overflow: auto;
+}
+.col-narrow{
+  width: 30%;
+  float: left;
+  min-height: 175px;
+}
+.col-wide{
+  width: 70%;
+  float: left;
+  padding-left: 20px;
+  min-height: 175px;
+}
+/*Header and Footer
+**************************/
+header{
+  text-align: center;
+}
+header, footer{
+  background: #2c3242; /*Navy*/
+  color: #d5d5d4;
+}
+.profile-img{
+  border-radius: 50%;
+}
+header h1, header h2{
+  margin: 0;
+  color: #c68c7e;
+}
+footer{
+  text-align: center;
+}
+.contact-info a{
+  padding: 10px;
+}
+
+/*Work Experience
+**************************/
+.work{
+  background: #7d94b3;
+}
+
+/*Education
+**************************/
+.education{
+  background: #d5d5d4;
+}
