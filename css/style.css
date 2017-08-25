@@ -69,7 +69,7 @@ a:hover{
 }
 /*Header and Footer
 **************************/
-header - h4{
+header {
   text-align: center;
 }
 header, footer{
@@ -99,5 +99,9 @@ footer{
 /*Education
 **************************/
 .education{
+  text-align: center;
   background: #d5d5d4;
+}
+.education h2{
+  color: #b71919;
 }
