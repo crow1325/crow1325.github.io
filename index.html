@@ -9,7 +9,13 @@
 </head>
 <body>
     <!-- // Intro -->
-    <header>
+    <header id="about">
+      <nav class="display">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
        <div class="content-wrap">
         <img class="profile-img col-narrow" src="images/myPic.png" alt="Scott Crow">
         <div class="col-wide">
@@ -27,21 +33,21 @@
            hands dirty with real world expieriences.</p>
         </div>
       </div>
+      <a href="ScottCrowResume2016FSU.pdf" class="btn" download>Download PDF<br>Version</a>
     </header>
 
     <main>
         <!-- // Work Experience -->
-        <section class="work">
+        <section class="work" id="work">
           <div class="content-wrap">
             <h2>Work Experience</h2>
-
             <!-- Job Details: copy this whole block to add more jobs -->
-            <div class="col-narrow">
+          <div class="col-narrow">
             <h3>Nao Robot handler</h3>
-            <p>Florida State University</p>
+            <p class="upCase">Florida State University</p>
             <p>Jan 2017 - Present</p>
           </div>
-          <div class="col-wide">
+          <div class="col-wide job-description">
             <p>I am tasked with programming and demonstrating the 2 Nao robots we have
               at FSU. We "teach" him to communicate, dance, sing and perform other activities.
             The main purpose of the Nao project is to spark the interest of grade school children,
@@ -58,10 +64,10 @@
           </div>
             <div class="col-narrow">
             <h3>Engineering Assistant</h3>
-            <p>General Dynamics</p>
+            <p class="upCase">General Dynamics</p>
             <p>Aug 2013- Dec 2015</p>
           </div>
-          <div class="col-wide">
+          <div class="col-wide job-description">
             <p>After completion of my internship at the end of the summer of 2013, my department
               head created a permenant position at the navy base so that I could complete the projects I had begun.</p>
 
@@ -79,7 +85,7 @@
 
 
         <!-- // Education -->
-        <section class="education">
+        <section class="education" id="education">
           <div class="content-wrap">
             <h2>Education</h2>
 
@@ -94,7 +100,7 @@
     </main>
 
     <!-- // Footer & contact info -->
-    <footer>
+    <footer id="contact">
       <div class="content-wrap">
         <h2>Let's Keep in Touch!</h2>
 

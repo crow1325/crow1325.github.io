@@ -14,7 +14,6 @@ Color Palette
 #7d94b3 Blue
 #d5d5d4 White/blue
 
-
 /*Global styles
 **************************/
 html {
@@ -43,6 +42,9 @@ h2{
   font-style: oblique;
   margin-top: 0;
 }
+h3{
+  margin: 0;
+}
 a{
   color: #b71919;
 }
@@ -53,23 +55,35 @@ a:hover{
 .content-wrap{
   max-width: 1000px;
   margin: 0 auto;
-  padding: 30px;
+  padding: 60px 50px;
   overflow: auto;
 }
 .col-narrow{
   width: 30%;
   float: left;
-  min-height: 175px;
 }
 .col-wide{
   width: 70%;
   float: left;
   padding-left: 20px;
-  min-height: 175px;
+}
+.upCase{
+  text-transform: uppercase;
+}
+.btn{
+  text-decoration: none;
+  background: #c68c7e;
+  color: #2c3242;
+  font-weight: 700;
+  position: fixed;
+  right: 0;
+  top: 300px;
+  padding: 10px;
 }
 /*Header and Footer
 **************************/
 header {
+  padding-top: 50px;
   text-align: center;
 }
 header, footer{
@@ -77,6 +91,7 @@ header, footer{
   color: #d5d5d4;
 }
 .profile-img{
+  margin-top: 125px;
   border-radius: 50%;
 }
 header h1, header h2{
@@ -88,18 +103,44 @@ footer{
 }
 .contact-info a{
   padding: 10px;
+  display:inline-block;
 }
+/*Navigation
+**************************/
 
+nav{
+  text-align: center;
+  background: #c68c7e;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+nav a{
+  color: #2c3242;
+  padding: 15px 20px;
+  display:inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
 /*Work Experience
 **************************/
 .work{
   background: #7d94b3;
 }
-
+h3 ~ p{
+  margin: 0;
+}
+.job-description p:first-of-type{
+  margin-top: 0;
+}
+.job-description{
+  margin-bottom: 35px;
+}
 /*Education
 **************************/
 .education{
-  text-align: center;
   background: #d5d5d4;
 }
 .education h2{
