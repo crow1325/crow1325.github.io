@@ -47,10 +47,12 @@ h3{
 }
 a{
   color: #b71919;
+  border-radius: 50%;
 }
 a:hover{
   text-decoration: none;
   color: #c68c7e;
+  background: lightblue;
 }
 .content-wrap{
   max-width: 1000px;
@@ -77,8 +79,13 @@ a:hover{
   font-weight: 700;
   position: fixed;
   right: 0;
-  top: 300px;
+  bottom: 75px;
   padding: 10px;
+  border-radius: 15px 0 0 15px;
+
+}
+.btn:hover{
+  background: lightblue;
 }
 /*Header and Footer
 **************************/
@@ -115,6 +122,8 @@ nav{
   top: 0;
   left: 0;
   right: 0;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 nav a{
   color: #2c3242;
