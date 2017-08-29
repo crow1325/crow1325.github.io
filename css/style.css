@@ -112,6 +112,7 @@ footer{
   padding: 10px;
   display:inline-block;
 }
+
 /*Navigation
 **************************/
 
@@ -151,7 +152,11 @@ h3 ~ p{
 **************************/
 .education{
   background: #d5d5d4;
+
 }
 .education h2{
   color: #b71919;
+}
+.education p:first-of-type{
+ margin-bottom: 30px;
 }
