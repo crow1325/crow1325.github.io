@@ -60,15 +60,7 @@ a:hover{
   padding: 60px 50px;
   overflow: auto;
 }
-.col-narrow{
-  width: 30%;
-  float: left;
-}
-.col-wide{
-  width: 70%;
-  float: left;
-  padding-left: 20px;
-}
+
 .upCase{
   text-transform: uppercase;
 }
@@ -151,12 +143,35 @@ h3 ~ p{
 /*Education
 **************************/
 .education{
-  background: #d5d5d4;
+  background: linear-gradient(rgba(231, 249, 250, 0.6),
+              rgba(200, 45, 70, 0.9)),
+              url(../images/fsu.jpg) fixed center;
+  background-size: cover;
+  color: white;
 
 }
-.education h2{
-  color: #b71919;
-}
+
 .education p:first-of-type{
  margin-bottom: 30px;
+}
+
+/*Media Queries
+**************************/
+
+@media (min-width: 900px){
+  .col-narrow{
+    width: 30%;
+    float: left;
+  }
+  .col-wide{
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+  }
+}
+
+@media (max-width :899px){
+  .profile-img{
+    width: 255px;
+  }
 }
