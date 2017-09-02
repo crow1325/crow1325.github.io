@@ -51,7 +51,7 @@ a{
 }
 a:hover{
   text-decoration: none;
-  color: #c68c7e;
+  color: #2c3242;
   background: lightblue;
 }
 .content-wrap{
@@ -101,7 +101,7 @@ footer{
   text-align: center;
 }
 .contact-info a{
-  padding: 10px;
+  padding: 33px;
   display:inline-block;
 }
 
